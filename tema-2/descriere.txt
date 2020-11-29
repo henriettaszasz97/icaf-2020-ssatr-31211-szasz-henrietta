@@ -1,0 +1,17 @@
+Controlerul DEC asteapta de la intrari evenimente. 
+Intrarile sunt urmatoarele:       
+ Z-Zero, L- Low, M- Medium si H-High.
+Generatoarele nu functioneaza pana in momentul cand se activeaza M.
+Mod Generator 1
+Generatorul 1 este pornit.
+DTC 1 are ca intrari de la controler comenziile de ON si OFF dar si semnale pentru faza , 
+tensiune si referintele pentru faza si tensiune.
+ Cand se ajunge la o anumita frecenta si faza din retea se incepe reglarea de nivel.
+Mod Reglare:
+Generatorul 1 este in faza cu reteaua .
+ DTC 1 regleaza frecventa si tensiunea. 
+Cand se activeaza H se porneste generatorul 2 iar daca se activeaza Z se opreste generatorul 1.
+Mod Ambele Generatoare
+Ambele Generatoare sunt pornitesi DTC 1 si DTC 2 sunt in regim de reglare.
+ Daca se activeaza L se opreste generatorul 2.
+
